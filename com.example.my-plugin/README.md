@@ -193,6 +193,13 @@ To trigger a release, follow these steps:
     ```
    This will release a major release candidate.
 
+## 檔案上傳限制
+
+本插件實施了檔案上傳限制，以確保僅接受支援的圖片格式。
+
+*   **允許的檔案類型**: PNG, JPG, JPEG, SVG
+*   **錯誤訊息**: "只允許上傳 PNG, JPG, JPEG, SVG 格式的圖片檔案。"
+
 ## Q&A
 
 ### How do I make a server-only or web app-only plugin?
